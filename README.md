@@ -1,29 +1,27 @@
-# Anime Search with MyAnimeList API
+# 🚀 Anime Search Engine with MyAnimeList API 🔍
+## 🌟 Overview
+The Anime Search Engine is a Python-based project that allows users to search for anime information using the MyAnimeList API. Whether you’re an anime enthusiast, a developer, or just curious about the latest shows, this project provides a convenient way to explore anime details.
 
-This Python script uses the MyAnimeList API from RapidAPI to search for anime information.
-
-## How it works
-
-1. The script first establishes a connection with the MyAnimeList API.
-2. It then asks the user to input the name of an anime they want to search for.
-3. The script sends a GET request to the API with the anime name.
-4. The API returns a list of anime that match the search query.
-5. The script prints out the titles and descriptions of the search results.
-6. The user is then asked to select one of the results by entering its serial number.
-7. The script sends another GET request to the API to get more detailed information about the selected anime.
-8. Finally, the script prints out the detailed information, including the synopsis of the anime.
-
-## Usage
-
-To run the script, you will need Python installed on your machine. You will also need your RapidAPI key. Please replace 'X-RapidAPI-Key' and 'X-RapidAPI-Host' in the script with your actual RapidAPI key and host.
-
-Please note: Do not share your RapidAPI key publicly to prevent misuse.
-
-## Limitations
-
-This script won't run in environments that don't support user input or external API calls. Also, it won't run if the RapidAPI key or host is incorrect.
-
-## Authors
-- Amartya Singh
-- Abhishek Bansal
-- Adarsh jha
+## 📋 Features 
+User-Friendly Interface: The command-line interface (CLI) makes it easy to search for anime titles and retrieve relevant information.
+Search by Title: Users can input the name of an anime they want to explore, and the script fetches matching results from the MyAnimeList API.
+Detailed Information: Once the search results are displayed, users can select an anime by its serial number. The script then retrieves detailed information, including the synopsis.
+RapidAPI Integration: The project leverages the MyAnimeList API from RapidAPI for accurate and up-to-date data.
+## 🤖 How It Works 
+- Setup:
+Ensure you have Python installed on your machine.
+- Replace the placeholders for ‘X-RapidAPI-Key’ and ‘X-RapidAPI-Host’ in the script with your actual RapidAPI key and host.
+- Run the Script:
+- Execute the Python script (anime_search.py).
+- Input the anime title you want to search for.
+- Explore Anime Details:
+-- View search results with titles and descriptions.
+-- Select an anime by entering its serial number.
+-- Get detailed information, including the synopsis.
+## ⚠️ Limitations 
+The script requires an environment that supports user input and external API calls.
+Keep your RapidAPI key private to prevent misuse.
+## 👨‍💻 Authors 
+Amartya Singh
+Abhishek Bansal
+Adarsh Jha
