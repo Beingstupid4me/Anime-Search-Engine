@@ -14,10 +14,10 @@ Ensure you have Python installed on your machine.
 - Run the Script:
 - Execute the Python script (anime_search.py).
 - Input the anime title you want to search for.
-- Explore Anime Details:
-  -- View search results with titles and descriptions.
-  -- Select an anime by entering its serial number.
-  -- Get detailed information, including the synopsis.
+- Explore Anime Details;
+      - View search results with titles and descriptions.
+      - Select an anime by entering its serial number.
+      - Get detailed information, including the synopsis.
 ## ⚠️ Limitations 
 The script requires an environment that supports user input and external API calls.
 Keep your RapidAPI key private to prevent misuse.
